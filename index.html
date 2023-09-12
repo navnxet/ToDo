@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ToDo List - ɴαvɴeeт</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<form class="input_box">
+				<input
+					class="input_task"
+					type="text"
+					placeholder="Add a new task"
+					required
+				/>
+				<input class="input_time" type="time" value="" required />
+				<button class="add_task" type="submit">
+					<i class="ri-add-line"></i>
+				</button>
+			</form>
+			<div class="header">
+				<div class="controls">
+					<button class="all_tasks">All</button>
+					<button class="pending_tasks">Pending</button>
+					<button class="completed_tasks">Completed</button>
+				</div>
+				<button class="clear_all_tasks">
+					<i class="ri-delete-bin-6-line"></i>
+				</button>
+			</div>
+			<div class="main">
+				<div class="task">
+					<ul></ul>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="copyright">
+					<p>Made with</p>
+					<span>&nbsp;❤&nbsp;</span>
+					<p>by Navneet Singh</p>
+				</div>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
